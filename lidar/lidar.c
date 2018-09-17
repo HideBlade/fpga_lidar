@@ -114,6 +114,8 @@ int main(int argc, char* argv[]){
     normalLidar(lp, lfd);
   else
     adaptiveLidar(lp, lfd);
+	
+  closeAll_fd(lfd);
 
   return 0;
 }
